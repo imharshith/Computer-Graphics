@@ -6,8 +6,8 @@ GLfloat triangle[3][3]={{100.0,250.0,175.0},{100.0,100.0,300.0},{1.0,1.0,1.0}};
 GLfloat rotatemat[3][3]={{0},{0},{0}};
 GLfloat result[3][3]={{0},{0},{0}};
 GLfloat arbitrary_x=0;
-GLfloat arbitrary_y=0;
-float r_a;
+GLfloat arbitrary_y=0;  
+float r_a;     //rotation_angle
 
 void multiply()
 {
